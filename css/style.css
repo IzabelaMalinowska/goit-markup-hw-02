@@ -12,6 +12,7 @@ line-height: 1.19;
 
 .logo { color: rgba(33, 150, 243, 1);}
 .logo2 {color: rgba(0, 0 ,0 ,1)}
+.logo3 {color: rgba(255, 255, 255, 1)}
 .contact { color: rgba(117, 117, 117, 1);
     text-decoration: none;}
 .header .link { font-style: normal;
@@ -71,8 +72,8 @@ p { color:
         font-weight: 400; font-size: 14px; line-height: 1.86;
     color: rgba(255, 255, 255, 0.6); }
 
-.logo:active, .logo2:active { color: #2196F3;}
-.logo:hover, .logo2:hover, .logo:focus, .logo2:focus { color: #2196F3;}
+.logo:active, .logo2:active , .logo3:active { color: #2196F3;}
+.logo:hover, .logo2:hover, .logo3:hover, .logo:focus, .logo2:focus, .logo3:focus { color: #2196F3;}
 
 .header .link:active { color: #2196F3;}
 .header .link:hover, .header .link:focus { color:#2196F3;}
