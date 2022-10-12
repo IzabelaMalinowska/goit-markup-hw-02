@@ -21,13 +21,13 @@ line-height: 1.19;
 
 footer {background-color: rgba(47, 48, 58, 1);}
   
-.sekcja1 {background-color: 
+.section1 {background-color: 
           rgba(47, 48, 58, 1);}
          
 h1 { color: rgba(255, 255, 255, 1);
           font-style: normal; font-size: 44px; font-weight: 900; line-height: 1.36;  }
           
-.zamow { 
+.order { 
               background-color: rgba(33, 150, 243, 1);
               color: rgba(255, 255, 255, 1); font-family: inherit;
           border: none; font-style: normal;
@@ -40,15 +40,15 @@ p { color:
               rgba(117, 117, 117, 1);
               font-style: normal; font-size: 14px; font-weight: 400; line-height: 1.71;}
       
-.opis { color:rgba(33, 33, 33, 1);
+.title { color:rgba(33, 33, 33, 1);
                   font-style: normal; font-size: 36px; font-weight: 700; line-height: 1.16;  }
       
-.sekcja2 {background-color:rgba(245, 244, 250, 1)}
+.section2 {background-color:rgba(245, 244, 250, 1)}
       
-.nazwisko { color:rgba(33, 33, 33, 1);
+.name { color:rgba(33, 33, 33, 1);
               font-style: normal; font-size: 16px; font-weight: 500; line-height: 1.17;  }
       
-.stanowisko { color:rgba(117, 117, 117, 1);
+.profession { color:rgba(117, 117, 117, 1);
               font-style: normal; font-size: 16px; font-weight: 400; line-height: 1.17;  }
       
     
@@ -61,14 +61,14 @@ p { color:
 .portfolio { font-style: normal;
         font-weight: 700; font-size: 18px; line-height: 2;}
     
-.typ { font-style: normal;
+.type { font-style: normal;
             font-weight: 400; font-size: 16px; line-height: 1.86; }
     
 .adress { font-style: normal;
         font-weight: 400; font-size: 14px; line-height: 1.71;
     color: rgba(255, 255, 255, 1); }
     
-.kontakt_stopka {font-style: normal;
+.contact_footer {font-style: normal;
         font-weight: 400; font-size: 14px; line-height: 1.86;
     color: rgba(255, 255, 255, 0.6); }
 
@@ -83,15 +83,15 @@ p { color:
 
 .adress:active, .adress:hover, .adress:focus { color:#2196F3;}
 
-.kontakt_stopka:active {color: #2196F3;}
-.kontakt_stopka:hover, .kontakt_stopka:focus {color: #2196F3;}
+.contact_footer:active {color: #2196F3;}
+.contact_footer:hover, .contact_footer:focus {color: #2196F3;}
 
 .buton:active {color: #FFFFFF; background-color: #2196F3;}
 .button:hover, .button:focus {color: #FFFFFF;
     background-color: #2196F3;}
 
-.zamow:active {color: #2196F3;}
-.zamow:focus, .zamow:hover {color: #2196F3;}
+.order:active {color: #2196F3;}
+/*.order:focus, .order:hover {cursor: pointer;}*/
 
 ul {list-style-type: none;}
 
