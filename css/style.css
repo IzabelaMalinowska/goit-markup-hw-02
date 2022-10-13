@@ -1,8 +1,18 @@
+:root {
+    --black-main:rgba(33, 33, 33, 1);
+    --logo-black: rgba(0, 0 ,0 ,1);
+    --main-blue: rgba(33, 150, 243, 1);
+    --background-grey: rgba(47, 48, 58, 1);
+    --main-white: rgba(255, 255, 255, 1);
+    --background-white: rgba(245, 244, 250, 1);
+    --main-silver: rgba(117, 117, 117, 1);
+    --font-footer: rgba(255, 255, 255, 0.6);
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-main);
+  }
 
-body { 
-    
-    font-family: 'Roboto', sans-serif;
-    color: black}
 
 .webstudio { font-family: 'Raleway', sans-serif; 
 font-style: normal;
@@ -10,53 +20,56 @@ font-weight: 700; font-size: 26px;
 line-height: 1.19;
 }
 
-.logo { color: rgba(33, 150, 243, 1);}
-.logo2 {color: rgba(0, 0 ,0 ,1);}
-.logo3 {color: rgba(255, 255, 255, 1);}
-.contact { color: rgba(117, 117, 117, 1);
+.logo { color: var(--main-blue);}
+.logo2 {color: var(--logo-black);}
+.logo3 {color: var(--main-white);}
+.contact { color:  var(--main-silver);
     text-decoration: none;}
 .header .link { font-style: normal;
         font-weight:500; font-size: 14px; line-height: 1.14;
-        color: rgba(33, 33, 33, 1);}
+        color: var(--black-main);}
 
-footer {background-color: rgba(47, 48, 58, 1);}
+footer {background-color: var(--background-grey);}
   
 .section1 {background-color: 
-          rgba(47, 48, 58, 1);}
+          var(--background-grey);}
          
-h1 { color: rgba(255, 255, 255, 1);
+h1 { color: var(--main-white);
           font-style: normal; font-size: 44px; font-weight: 900; line-height: 1.36;  }
           
 .order { 
-              background-color: rgba(33, 150, 243, 1);
-              color: rgba(255, 255, 255, 1); font-family: inherit;
+              background-color: var(--main-blue);
+              color: var(--main-white); font-family: inherit;
           border: none; font-style: normal;
           font-weight: 700; font-size: 16px; line-height: 1.88; cursor: pointer;}
           
-.lorem { color:rgba(33, 33, 33, 1);
+.lorem { color:var(--black-main);
               font-style: normal; font-size: 14px; font-weight: 700; line-height: 1.36;  }
       
 p { color:
-              rgba(117, 117, 117, 1);
+               var(--main-silver);
               font-style: normal; font-size: 14px; font-weight: 400; line-height: 1.71;}
       
-.title { color:rgba(33, 33, 33, 1);
+.title { color:var(--black-main);
                   font-style: normal; font-size: 36px; font-weight: 700; line-height: 1.16;  }
       
-.section2 {background-color:rgba(245, 244, 250, 1)}
+.section2 {background-color: var(--background-white)}
       
-.name { color:rgba(33, 33, 33, 1);
+.name { color:var(--black-main);
               font-style: normal; font-size: 16px; font-weight: 500; line-height: 1.17;  }
       
-.profession { color:rgba(117, 117, 117, 1);
+.profession { color: var(--main-silver);
               font-style: normal; font-size: 16px; font-weight: 400; line-height: 1.17;  }
       
     
-.button { background-color: rgba(245, 244, 250, 1);
-        color:  rgba(33, 33, 33, 1);
+.button { background-color: var(--background-white);
+        color:  var(--black-main);
     border: none; font-family: inherit;
     font-style: normal;
-    font-weight: 500; font-size: 16px; line-height: 1.63; cursor: pointer;}
+    font-weight: 500; font-size: 16px; line-height: 1.63; cursor: pointer;
+    border-radius: 4px;
+    
+}
     
 .portfolio { font-style: normal;
         font-weight: 700; font-size: 18px; line-height: 2;}
@@ -66,31 +79,31 @@ p { color:
     
 .adress { font-style: normal;
         font-weight: 400; font-size: 14px; line-height: 1.71;
-    color: rgba(255, 255, 255, 1); }
+    color: var(--main-white); }
     
 .contact_footer {font-style: normal;
         font-weight: 400; font-size: 14px; line-height: 1.86;
-    color: rgba(255, 255, 255, 0.6); }
+    color: var(--font-footer); }
 
-.logo:active, .logo2:active , .logo3:active { color: #2196F3;}
-.logo:hover, .logo2:hover, .logo3:hover, .logo:focus, .logo2:focus, .logo3:focus { color: #2196F3;}
+.logo:active, .logo2:active , .logo3:active { color: var(--main-blue);}
+.logo:hover, .logo2:hover, .logo3:hover, .logo:focus, .logo2:focus, .logo3:focus { color: var(--main-blue);}
 
-.header .link:active { color: #2196F3;}
-.header .link:hover, .header .link:focus { color:#2196F3;}
+.header .link:active { color: var(--main-blue);}
+.header .link:hover, .header .link:focus { color:var(--main-blue);}
 
-.header .contact:active {color: #2196F3;}
-.header .contact:focus, .header .contact:hover {color: #2196F3;}
+.header .contact:active {color: var(--main-blue);}
+.header .contact:focus, .header .contact:hover {color: var(--main-blue);}
 
-.adress:active, .adress:hover, .adress:focus { color:#2196F3;}
+.adress:active, .adress:hover, .adress:focus { color:var(--main-blue);}
 
-.contact_footer:active {color: #2196F3;}
-.contact_footer:hover, .contact_footer:focus {color: #2196F3;}
+.contact_footer:active {color: var(--main-blue);}
+.contact_footer:hover, .contact_footer:focus {color: var(--main-blue);}
 
-.buton:active {color: #FFFFFF; background-color: #2196F3;}
-.button:hover, .button:focus {color: #FFFFFF;
-    background-color: #2196F3;}
+.buton:active {color: var(--main-white); background-color: var(--main-blue);}
+.button:hover, .button:focus {color: var(--main-white);
+    background-color: var(--main-blue);}
 
-.order:active {color: #2196F3;}
+.order:active {color: var(--main-blue);}
 /*.order:focus, .order:hover {cursor: pointer;}*/
 
 ul {list-style-type: none;}
